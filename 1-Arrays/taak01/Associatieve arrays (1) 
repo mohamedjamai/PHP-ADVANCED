@@ -1,0 +1,6 @@
+
+
+
+
+$student = array("Mohamed", "Jamai", "1B", "17 Jaar");
+@echo $student
