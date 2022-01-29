@@ -1,7 +1,7 @@
 <?php
-      $persoon["voornaam"] = "Willem";
-      $persoon["last"] = "Alexander";
-      $persoon["leeftijd"] = "53";
+      $persoon["voornaam"] = "Mohamed";
+      $persoon["last"] = "Jamai";
+      $persoon["leeftijd"] = "17";
       $persoon["opleiding"] = "Software Ontwikkeling";
 
 ?>
