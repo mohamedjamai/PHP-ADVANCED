@@ -1,6 +1,7 @@
+<?php
+      $student["voornaam"] = "Mohamed";
+      $student["achternaam"] = "Jamai";
+      $student["Klas"] = "1B";
+      $student["leeftijd"] = "17";
 
-
-
-
-$student = array("Mohamed", "Jamai", "1B", "17 Jaar");
-@echo $student
+?>
