@@ -1,43 +1,40 @@
 body {
-
-    position: relative;
-
+position:relative;
 }
-
-
-
 fieldset {
-
-    border: 2px solid black;
-
-    display: inline-block;
-
-    padding: 20px;
-
-   
+border: 2px solid black;
+display: inline-block;
+padding: 20px;
 }
-
 #invoerformulier{
-    display: flex;
-    width: 500px;
-    justify-content: space-between;
-
+display: flex;
+width: 500px;
+justify-content: space-between;
 }
-
 #div2{
-
-    text-align: right;
-
+text-align: right;
 }
-
-
 #fname{
-    
-    float:right;
-
+float:right;
 }
-
 #lname{
-
-    float:right;
+float:right;
 }
+
+.radio{
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.radio__input{
+    display: none;
+}
+
+select option {
+    margin: 40px;
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+  }
