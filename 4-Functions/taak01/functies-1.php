@@ -6,20 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<h1>Functions with arguments</h1>
+<h1>Functions 4.0</h1>
 <body>
 
     <?php
         function schrijfKleur($kleur){
-            echo "Dit is de kleur $kleur <br>";
+            echo "<font color='$kleur'> Dit is de kleur $kleur </font> <br>";
         }
 
-        $kleur("<font color='red'>Red");
-        $kleur("<font color='blue'>Blue");
-        $kleur("<font color='yellow'>Yellow");
-        $kleur("<font color='orange'>Orange");
-
-
-    ?>
+        schrijfKleur("black") ;
+        schrijfKleur("green") ;
+        schrijfKleur("yellow") ;
+        schrijfKleur("red") ;
+        // schrijfKleur("<font color='red'>Red");
+        // schrijfKleur("<font color='blue'>Blue");
+        // schrijfKleur("<font color='purple'>Purple");
+        
+        
+?>
 </body>
 </html>
