@@ -9,14 +9,14 @@
     <h1>Reken wonder</h1>
 <body>
 <?php 
-
-
-function addNumbers(int $a, int $b) {
-  return $a + $b;
+function rekenWonder($input1, $input2, $input3){
+  $antwoord = $input1 + $input2 + $input3;
+  return $antwoord;
 }
-echo addNumbers(5, 7);
-echo addNumbers(4, 19);
-echo addNumbers(9, 10)
+
+echo "Als ik de getallen 4,2, 9 bij elkaar optel, is de uitkomst 14" . $antwoord1 = rekenWonder(4,2,9). "<br>";
+echo "Als ik de getallen 1,2,3 bij elkaar optel, is de uitkomst 14" . $antwoord2 = rekenWonder(1,2,3). "<br>";
+echo "Als ik de getallen 40,29,91 bij elkaar optel, is de uitkomst 14" . $antwoord3 = rekenWonder(40,29,91). "<br>";
 
 ?>
 </body>
