@@ -14,9 +14,9 @@ function rekenWonder($input1, $input2, $input3){
   return $antwoord;
 }
 
-echo "Als ik de getallen 4,2, 9 bij elkaar optel, is de uitkomst 14" . $antwoord1 = rekenWonder(4,2,9). "<br>";
-echo "Als ik de getallen 1,2,3 bij elkaar optel, is de uitkomst 14" . $antwoord2 = rekenWonder(1,2,3). "<br>";
-echo "Als ik de getallen 40,29,91 bij elkaar optel, is de uitkomst 14" . $antwoord3 = rekenWonder(40,29,91). "<br>";
+echo "Als ik de getallen 4, 2, 9 bij elkaar optel, is de uitkomst " . $antwoord1 = rekenWonder(4, 2, 9). "<br>";
+echo "Als ik de getallen 1, 2, 3 bij elkaar optel, is de uitkomst " . $antwoord2 = rekenWonder(1,2,3). "<br>";
+echo "Als ik de getallen 40, 29, 91 bij elkaar optel, is de uitkomst" . $antwoord3 = rekenWonder(40,29,91). "<br>";
 
 ?>
 </body>
