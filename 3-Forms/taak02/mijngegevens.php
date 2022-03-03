@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<?php $_POST['colors'];?>
 </head>
 <body>
+
+
+
     <h1>Jouw gegevens!</h1>
         <?php
 
@@ -17,7 +21,8 @@
         echo "Jouw geslacht is ". $_POST["sex"] , "<br>"; 
         
         ?>
-        
+
+        <body style="background-color:<?php echo $_POST['colors']; ?>"></body>
 
 
 
