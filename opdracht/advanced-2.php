@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Advanvfujfviugvugjced</title>
+    <title>Advanced</title>
 </head>
 <body style="background-color:<?php echo $_POST['achtergrondkleur']; ?>; border-radius:<?php echo $_POST['borderline']; ?>; color:<?php echo $_POST['tesktkleur1'];?>">
     <fieldset>
@@ -15,7 +15,9 @@
                             "Naam" => "Mohamed",
                             "achternaam" => "Jamai",
                             "Leeftijd" => "17",
-                            "Woonplaats" => "Amsterdam"
+                            "Woonplaats" => "Amsterdam",
+                            "Geboortedatum" => "12 Oktober 2004",
+
                         );
                         
                         foreach ($persoonlijkeArray as $key => $value) {
