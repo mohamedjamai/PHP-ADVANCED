@@ -7,14 +7,34 @@
     <title>Advanced</title>
 </head>
 <body>
+
+<body style="background-color:<?php echo $_POST['kleur']; ?>">
     <fieldset>
-            <form name id="invoerformulier" action = "mijngegevens.php" method="post">
-                    <label for="fname">textkleur:</label>
-                    <input type="text" id="fname" name="fname"><br><br>
-                    <label for="fname">achtergrondkleur:</label>
-                    <input type="text" name="achternaam"><br><br>
-                    <label for="lname">tabel-border:</label>
-                    <input type="text" name="klas"><br><br>
+            <form action = "advanced-2.php" method="post">
+            <label for="fname">Tekstkleur</label>
+                    <select name="tesktkleur1"> 
+                        <?php 
+                            $kleuren = array("red", "blue", "green", "black", "brown");
+                        foreach ( $kleuren as $kleur){
+                            echo "<option value = $kleur > $kleur </option>";
+                        }?>
+                        </select>
+                        
+                        <br>
+                    
+                        <label for="fname">Backgroundcolor</label>
+                        <select name="achtergrondkleur">
+                        <?php 
+                            $achtergronden = array("red", "blue", "green", "black", "brown");
+                        foreach ( $achtergronden as $achtergrond){
+                            echo "<option value = $achtergrond > $achtergrond </option>";
+                        }?> 
+                    </select>
+                    <br>
+                        <label for="lname">Bordertext </label>
+                        <input type="text" name="borderline">
+                    <br>
+                    <input type="submit" value="Submit"> 
                    
             </form>
     </fieldset>
